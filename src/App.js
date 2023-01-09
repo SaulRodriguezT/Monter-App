@@ -27,9 +27,13 @@ function App() {
           {monster.name} 
         </h1>
         <p className='description'>
-           Type: {monster.type}
-          <br></br>
-          Description: {monster.description}
+           <p>
+            Type: {monster.type}
+           </p>
+           <p>
+            Description: {monster.description}
+           </p>
+          
         </p>
         <img src={monsterImg[index]} className="imgs"></img>
         </div>

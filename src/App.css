@@ -1,28 +1,36 @@
-body {
-  background-color: green;
-}
-
 .container {
-  background-color: aqua;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .Card {
-  margin: 1vh;
+  margin: 3vh;
   padding: 3vh;
   background-color: rgb(227, 219, 234);
   width: auto;
   height: auto;
-  text-align: center;
+  text-align: center;background-color: #fffbec;
+  background-image:  linear-gradient(135deg, #bebebe 25%, transparent 25%), linear-gradient(225deg, #bebebe 25%, transparent 25%), linear-gradient(45deg, #bebebe 25%, transparent 25%), linear-gradient(315deg, #bebebe 25%, #fffbec 25%);
+  background-position:  24px 0, 24px 0, 0 0, 0 0;
+  background-size: 48px 48px;
+  background-repeat: repeat;
+  -webkit-box-shadow: 6px 6px 22px -10px rgba(0,0,0,1);
+  -moz-box-shadow: 6px 6px 22px -10px rgba(0,0,0,1);
+  box-shadow: 6px 6px 22px -10px rgba(0,0,0,1);
 }
 .title {
   font-size: 5vh;
+  padding: 0.5vw;
+  background-color: bisque;
+  margin: 0%;
+  border-radius: 15px;
+  border: 2px solid rgb(214, 198, 132);
 }
 
-.description {
+.description p {
   width: 20vw;
+  background-color: rgba(229, 229, 229, 0.579);
 }
 
 .imgs {
@@ -30,4 +38,5 @@ body {
   bottom: 0vh;
   background-color: bisque;
   height: 20vw;
+  border-radius: 100%;
 }
